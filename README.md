@@ -8,17 +8,17 @@ Assim, para cada pessoa com acesso ao sistema, denominada usuário, existirá um
 
 No sistema de Controle de Tarefas, foram definidos dois perfis de usuário, detalhados a seguir: 
 
-	1. **Administrador:** Este perfil permite ao usuário a criação de tarefas e o acompanhamento (em tempo real) de todas as tarefas cadastradas no sistema;
-	2. **Usuário:** O usuário com este perfil pode assumir tarefas e consequentemente mudar o status das tarefas para as quais ele é o responsável. 
+1. **Administrador:** Este perfil permite ao usuário a criação de tarefas e o acompanhamento (em tempo real) de todas as tarefas cadastradas no sistema;
+2. **Usuário:** O usuário com este perfil pode assumir tarefas e consequentemente mudar o status das tarefas para as quais ele é o responsável. 
 
 Além das informações de usuário, o sistema também manterá os dados que permitem a identificação, autoria, responsabilidade e o controle dos possíveis estados de uma tarefa. 
 
 Os estados das tarefas gerenciadas pelo sistema são: 
 
-	1. **Cadastrada:** Este é o estado inicial de uma tarefa, atribuído na criação da tarefa por um usuário com perfil Administrador; 
-	2. **Iniciada:** A tarefa neste estado foi iniciada por um usuário com perfil Usuário, que neste caso assumiu o papel de responsável por ela; 
-	3. **Concluída:** Ao alcançar este estado, a tarefa foi concluída com sucesso pelo usuário responsável; 
-	4. **Descartada:** Este estado conclui a tarefa com insucesso, indicando que o usuário responsável optou por anular a tarefa.
+1. **Cadastrada:** Este é o estado inicial de uma tarefa, atribuído na criação da tarefa por um usuário com perfil Administrador; 
+2. **Iniciada:** A tarefa neste estado foi iniciada por um usuário com perfil Usuário, que neste caso assumiu o papel de responsável por ela; 
+3. **Concluída:** Ao alcançar este estado, a tarefa foi concluída com sucesso pelo usuário responsável; 
+4. **Descartada:** Este estado conclui a tarefa com insucesso, indicando que o usuário responsável optou por anular a tarefa.
 
 As tarefas são específicas de uma determina fase de um dado projeto, de forma que seja possível consultar as tarefas por projeto, por fase do projeto e por estado da tarefa.
 
@@ -30,9 +30,9 @@ Quando o executor da tarefa alterar o seu estado para concluída, ele deverá in
 
 O sistema deverá permitir a consulta de tarefas em um determinado período. O usuário poderá filtrar estas tarefas por:
 
-	1. Projeto
-	2. Fase do projeto;
-	3. Tipo da Tarefa;
-	4. Estado;
-	5. Relator
-	6. Executor.
+1. Projeto
+2. Fase do projeto;
+3. Tipo da Tarefa;
+4. Estado;
+5. Relator
+6. Executor.
